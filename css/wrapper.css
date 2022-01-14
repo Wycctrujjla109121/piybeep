@@ -2,4 +2,11 @@
     display: flex;
     justify-content: center;
     background-color: #100F13;
+    min-width: 1900px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    max-width: 1900px;
 }
