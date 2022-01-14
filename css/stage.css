@@ -1,0 +1,102 @@
+.stage_container {
+    color: #fff;
+    width: 1813px;
+}
+.stage_content{
+    width: 1391px;
+    margin: 0 auto;
+}
+.stage_label {
+    font-size: 36px;
+    line-height: 46.4px;
+    font-family: source;
+    text-transform: uppercase;
+}
+.stage_label h2::after{
+    display: inline-block;
+    content: " ";
+    width: 9px;
+    height: 9px;
+    margin-left: 20px;
+    background-color: #98EC65;
+}
+.label::after{
+    content: " ";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 60px;
+    margin-top: 5px;
+}
+.stage_collumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 135px;
+    background-image: url(../image/icon/1-2.svg), url(../image/icon/2-3.svg), url(../image/icon/3-4.svg);
+    background-repeat: no-repeat;
+    background-position-x: 750px, 170px , 750px;
+    background-position-y: 140px, 600px, 1100px;
+}
+.start{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.analis{
+    grid-column: 2/2;
+    grid-row: 2/4;
+}
+.visual{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.adaptiv{
+    grid-column: 2/2;
+    grid-row: 4/4;
+}
+.collumn_content{
+    display: flex;
+    flex-direction: column;
+}
+.stage_start{
+    display: flex;
+}
+.stage_start h2{
+    font-size: 240px;
+    opacity: 10%;
+    font-family: Gilroy;
+    height: 205px;
+}
+.stage_start h3{
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: -80px;
+    text-transform: uppercase;
+    align-self: center;
+    color: #98EC65;
+    font-size: 18px;
+    line-height: 21.47px;
+}
+.stage_start h3::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    border: 1px solid #98EC65;
+    width: 60px;
+    left: -30px;
+    top: -5px;
+}
+.stage_info {
+    width: 555px;
+    height: 297px;
+    align-self: flex-end;
+}
+.stage_info h2{
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 80.45px;
+}
+.stage_info p{
+    font-size: 18px;
+    line-height: 23.2px;
+}
