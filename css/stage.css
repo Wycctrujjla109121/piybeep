@@ -1,10 +1,17 @@
 .stage_container {
+    display: flex;
+    justify-content: center;
     color: #fff;
     width: 1813px;
 }
 .stage_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
     width: 1391px;
-    margin: 0 auto;
+    /* border: 1px solid red; */
 }
 .stage_label {
     font-size: 36px;
