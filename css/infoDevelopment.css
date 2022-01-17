@@ -3,6 +3,12 @@
     flex-direction: column;
     margin-top: 331px;
 }
+.infoDevelopment__content{
+    display: flex;
+    flex-direction: column;
+    width: 1494px;
+    align-self: center;
+}
 .info__label {
     font-size: 36px;
     line-height: 46.4px;
