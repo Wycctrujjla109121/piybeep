@@ -1,0 +1,62 @@
+.feedback_containet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+}
+.feedback_content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1501px;
+}
+.feedback_label {
+    color: #fff;
+    font-family: source;
+    line-height: 46.4px;
+}
+.feedback_collumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 24px;
+}
+.feedback_row_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 32px;
+    height: 100%;
+}
+.feedback_row {
+    width: 364px;
+    height: 352px;
+    background-color: #fff;
+}
+.feedback_text {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7D7D7D;
+}
+.feedback_name {
+    display: flex;
+    justify-content: space-between;
+    color: #272727;
+    font-size: 18px;
+    line-height: 27px;
+}
+.feedback_radio {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 57px;
+}
+.feedback_radio button{
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+}
+.button_scale{
+    transform: scale(1.556);
+    transition: 0.4s;
+}

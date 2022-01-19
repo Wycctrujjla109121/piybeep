@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     margin-top: 331px;
+    background-image: url(../image/icon/infoDevelopmentRight.svg), url(../image/icon/infoDevelopmentBottomRight.svg);
+    background-repeat: no-repeat;
+    background-position-y: top, bottom;
+    background-position-x: right, left;
 }
 .infoDevelopment__content{
     display: flex;
