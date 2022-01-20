@@ -1,0 +1,96 @@
+.connection_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    color: #fff;
+}
+.connection_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1010px;
+}
+.connection_label {
+    font-size: 64px;
+    line-height: 87.16px;
+    font-family: source;
+}
+.connection_row {
+    display: flex;
+    margin-top: 118px;
+    gap: 150px;
+}
+.connection_piybeep{
+}
+.connection_text h2{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.connection_piybeep h2{
+    font-size: 144px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.connection_piybeep{
+}
+.connection_piybeep p{
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 120px;
+    letter-spacing: 27px;
+}
+.connection_collumn {
+    font-size: 18px;
+}
+.connection_collumn h3{
+    margin-bottom: 5px;
+}
+.connection_collumn form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.connection_collumn input{
+    background-color: transparent;
+    border: 2px solid #fff;
+    height: 40px;
+    width: 380px;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+.connection_collumn textarea{
+    height: 252px;
+    width: 380px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 24.51px;
+    padding: 15px 15px;
+    color: #fff;
+}
+
+.connection_send {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.connection_send button{
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #100F13;
+    font-size: 18px;
+    background-color: #98EC65;
+}
+.connection_send h3{
+    max-width: 200px;
+    line-height: 22.68px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
