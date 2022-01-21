@@ -1,6 +1,7 @@
 function clear() {
     let len = Array.from(document.querySelectorAll('.info__collumn > .info__collumn__text__hidden')).forEach((clear)=>{
         clear.classList.remove('info__collumn__text__visibility')
+        clear.querySelector('.text__label > img').src = 'image/icon/arrowDown.svg'
     })
 }
 const acords = document.querySelectorAll('.info__collumn > .info__collumn__text__hidden').forEach((acord)=>{
