@@ -1,53 +1,38 @@
-.piybeep{
+.piybeep_content {
     display: flex;
     flex-direction: column;
+    height: 1080px;
     justify-content: center;
-    align-items: center;
-    height: 400px;
+    background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
+    background-repeat: no-repeat;
+    background-position: 230px 50px, 250px bottom, 1350px 450px;
 }
-.piybeep h3{
-    color: #98EC65;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: source;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 128.9%;
-}
-.piybeep h1{
-    font-size: 144px;
-    text-transform: uppercase;
-    font-style: normal;
-    line-height: 100%;
-    color: #fff;
-    font-family: source;
-}
-.piybeep h1::after{
-    display: inline-block;
-    content: " ";
-    width: 9px;
-    height: 9px;
-    background-color: #98EC65;
-}
-.piybeep__button{
+.piybeep_info{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 63.5px;
-    margin-bottom: 200px;
+    flex-direction: column;
+    align-self: center;
 }
-.piybeep_container{
-    height: 900px;
-    background-image: url(../image/icon/leftDownPiyBeep.svg), url(../image/icon/piybeepRightBottom.svg), url(../image/icon/piybeepTopLeft.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom, right center, top left;
-    background-position-x: 200px, right, 150px;
-    background-position-y: bottom, 600px, top;
+.piybeep_content p{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 23.2px;
+    color: #98EC65;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.piybeep__button button{
-    Width: 40.5px;
-    height: 20.5px;
-    background-color: transparent;
-    background-image: url(../image/icon/button_piybeep.svg);
-    background-repeat: no-repeat;
+.piybeep_content h1{
+    font-size: 144px;
+    line-height: 144px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    font-family: 'Arvo', serif;
+}
+.piybeep_content h1::after{
+    content: '';
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    background-color: #98EC65;
 }
 
